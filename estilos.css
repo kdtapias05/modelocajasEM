@@ -1,0 +1,31 @@
+.contenedorPadre{
+    background-color: darkgreen;
+    width: 60%;
+    max-width: 600px;
+    padding: 1.88em;
+    border: black solid 4px;
+    margin: 1.25em auto;
+    font-size: 16px;
+}
+.contenedorPadre h2{
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 1.56em;
+}
+.contenedorPadre p{
+    font-size: 1.38em;
+    color: white;
+    margin-bottom: 0.94em;
+    padding: 0.625em;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px){
+    .contenedorPadre {
+        font-size: 10px;
+    }
+    .contenedorPadre h2{
+        color: burlywood;
+    }
+}
+
